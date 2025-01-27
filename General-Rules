@@ -1,0 +1,71 @@
+# Security
+
+1. Integrate secure coding principles (e.g., input validation, sanitized outputs).
+2. Use encryption for sensitive data at rest and in transit.
+3. Employ access controls and strong authentication/authorization mechanisms.
+4. Regularly perform vulnerability assessments and threat modeling.
+
+# User Experience
+
+1. Keep code organized and readable to facilitate ongoing improvements.
+2. Focus on responsiveness and fast load times, minimizing performance bottlenecks.
+3. Provide clear error messages and helpful feedback for both developers and end-users.
+4. Design AI interactions that are intuitive and user-friendly.
+
+# Migration
+
+1. Plan and document any data structure or database schema changes well in advance.
+2. Build backward compatibility layers where possible, ensuring smooth transitions.
+3. Provide migration scripts or tools to automate upgrades and avoid manual errors.
+4. Test migration processes thoroughly in a staging environment before deployment.
+
+# Dependency Management
+
+1. Keep a clear record of all external libraries and frameworks used in the project.
+2. Pin and update dependencies responsibly to avoid unexpected behavior due to version changes.
+3. Regularly monitor for security patches and updates, applying them promptly.
+4. Evaluate the risk of adding new dependencies, especially in critical production environments.
+
+# Best Practices
+
+Follow established coding standards and conventions (e.g., PEP 8 for Python, AirBnB style for JavaScript).
+Write comprehensive documentation and inline comments to guide future developers.
+Implement automated testing (unit, integration, and end-to-end tests) to ensure code reliability.
+Use version control systems (e.g., Git) with clear commit messages to track changes effectively.
+
+# Project Integrity
+
+1. Establish clear development and release processes (e.g., code reviews, pull requests).
+2. Maintain a consistent project structure, with modular and reusable components.
+3. Enforce quality checks (linting, static analysis) to detect issues early.
+4. Keep your project’s roadmap and goals transparent for all team members.
+
+# Server or Local Device Resource Stability
+
+1. Write efficient algorithms to minimize CPU and memory usage, especially for AI workloads.
+2. Implement resource throttling or queue mechanisms to handle peak loads without crashing.
+3. Monitor resource usage (e.g., logging, telemetry) and address potential bottlenecks proactively.
+4. Optimize caching and storage strategies to reduce strain on system resources.
+
+# Secure Data Transferring
+
+1. Use HTTPS or secure WebSocket protocols for all data communication.
+2. Implement TLS/SSL certificates correctly to protect data in transit.
+3. Avoid sending sensitive information (e.g., passwords, keys) in plain text or via insecure channels.
+4. Validate and sanitize incoming and outgoing data to prevent data manipulation or leaks.
+
+# Be Careful About Conflicts
+
+1. Use branching strategies (e.g., Gitflow) to minimize merge conflicts.
+2. Communicate frequently with teammates to avoid working on the same parts of the code simultaneously.
+3. Resolve conflicts promptly and document the solution for future reference.
+4. Regularly merge or rebase from the main branch to keep feature branches up to date.
+
+# Performance Optimization
+
+1. Optimize code performance by employing efficient algorithms and data structures, ensuring low latency and effective memory usage.
+2. Implement caching mechanisms to avoid redundant computations.
+3. Utilize parallel processing where applicable to improve performance.
+4. Utilize profiling tools to identify and address performance bottlenecks.
+5. Cache frequently accessed data effectively to reduce redundant computations.
+6. Continuously monitor runtime metrics (e.g., CPU, memory, response times) and refine code as needed.
