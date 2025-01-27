@@ -1,3 +1,14 @@
+# General Guidelines
+1. Always put comment lines before and after blocks of code to explain their purpose.
+2. Use descriptive variable and function names to make code more self-explanatory.
+3. Use consistent indentation and spacing to make code readable and maintainable.
+4. Use a consistent style (e.g., PEP 8) for all code.
+5. Use a single source of truth for code formatting and style.
+6. Use consistent naming conventions for variables, functions, and other identifiers.
+7. Avoid using magic numbers (e.g., hard-coding numeric values in code).
+8. Avoid using global variables where possible.
+9. Encourage the use of unit tests and ensure they are consistently written.
+
 # Security
 
 1. Integrate secure coding principles (e.g., input validation, sanitized outputs).
