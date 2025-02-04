@@ -5,7 +5,7 @@
   - Response me in Turkish.
 
   # Personal Preferences
-  - Never touch the filesystem; use databases and caches instead before my confirmation.
+  - Never touch the filesystem confirmation.
   - Never touch dependencies without my confirmation. And always use fixed types for dependencies.
   - Present your changes as a step-by-step plan and wait for my approval.
   - Also, teach me the logic of what you did.
