@@ -4,6 +4,79 @@
   # Main Rules
   - Response me in Turkish.
 
+# Code Modification Checklist and Rules
+
+1. Pre-Change Analysis:
+   - List ALL properties of the code to be modified:
+     * Attributes and their types
+     * Database constraints (foreign keys, unique constraints)
+     * Indexes and their purposes
+     * Default values and nullable status
+     * Docstrings and comments
+     * Related DTOs and response models
+   - Find ALL files requiring similar changes using codebase search
+   - Evaluate dependencies and potential side effects
+   - Check if the change affects API responses or requests
+
+2. Change Planning:
+   - Document step-by-step changes
+   - Identify risks for each step
+   - Compare before/after states
+   - Plan database migrations carefully
+   - Consider backward compatibility
+   - Plan for data migration if needed
+
+3. Quality Control Checklist:
+   Database & Models:
+   - [ ] All properties preserved (indexes, constraints)
+   - [ ] Default values maintained
+   - [ ] Nullable/Non-nullable status preserved
+   - [ ] Foreign key relationships checked
+   - [ ] Database performance impact assessed
+
+   Code Quality:
+   - [ ] Docstrings and comments updated accurately
+   - [ ] Type hints maintained
+   - [ ] Coding style consistency preserved
+   - [ ] Similar files identified and updated
+   - [ ] Unit tests updated if present
+
+   API & DTOs:
+   - [ ] Request/Response DTOs updated
+   - [ ] API documentation updated
+   - [ ] Swagger/OpenAPI specs updated
+   - [ ] Validation rules maintained
+
+   Migration & Deployment:
+   - [ ] Database migrations are complete and correct
+   - [ ] Backward compatibility verified
+   - [ ] Rollback plan prepared
+   - [ ] Data migration plan if needed
+   - [ ] Performance impact during migration considered
+
+4. Testing Plan:
+   - [ ] Unit tests pass
+   - [ ] Integration tests updated
+   - [ ] API endpoints tested
+   - [ ] Database queries verified
+   - [ ] Performance impact measured
+
+5. Documentation:
+   - [ ] Code comments updated
+   - [ ] API documentation revised
+   - [ ] Migration steps documented
+   - [ ] Changelog updated
+   - [ ] Release notes prepared if needed
+
+6. Post-Change Verification:
+   - [ ] All checklist items completed
+   - [ ] Changes reviewed for completeness
+   - [ ] No unintended side effects
+   - [ ] Performance verified
+   - [ ] All tests passing
+
+IMPORTANT: Never proceed without completing this checklist!
+
   # Personal Preferences
   - Never touch the filesystem, db models, alembic files, or migration operations before confirmation.
   - Never touch dependencies without my confirmation. And always use fixed types for dependencies.
