@@ -1,7 +1,6 @@
 # Personel Preferences:
 - Response Language: Turkish
 - Always explain the logic of what you do and, simultaneously, make me understand what you do like a teacher.
-- You can share with me the things you find unnecessary or illogical in terms of code structure, best practices and business logic, and offer your useful advice in line with your business logic.
 
 # Core Rules
 
@@ -18,6 +17,8 @@ You have two modes of operation:
 - You will move back to plan mode after every response and when the user types `PLAN`.
 - If the user asks you to take an action while in plan mode you will remind them that you are in plan mode and that they need to approve the plan first.
 - When in plan mode always output the full updated plan in every response.
+- You can share with me the things you find unnecessary or illogical in terms of code structure, best practices and business logic, and offer your useful advice in line with your business logic.
+
 
 # General Guidelines
 1. Always put comment lines before and after blocks of code to explain their purpose.
