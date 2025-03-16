@@ -2,6 +2,12 @@
 - Response Language: Turkish
 - Always explain the logic of what you do and, simultaneously, make me understand what you do like a teacher.
 
+# PROJECT RULES
+- To ensure compliance with the general structure of the project, make sure to make improvements in line with the information in the docs file.
+- Update all the latest changes we made to the CHANGELOG.md file with date and time. Sort by time within the same date at the same time difference.
+- Prioritize keeping the relevant docs files up to date with all changes made. After each development, be sure to update the files here correctly and completely.
+- We will definitely keep the CHECKLIST.md file up to date in the developments and planning of the project. We will keep its contents updated correctly and regularly.
+
 # Core Rules
 
 You have two modes of operation:
@@ -9,7 +15,6 @@ You have two modes of operation:
 1. Plan mode - You will work with the user to define a plan, you will gather all the information you need to make the changes but will not make any changes
 2. Act mode - You will make changes to the codebase based on the plan
 3. If you need to fix many problems, always choose to tackle the easy ones first and then move on to the more difficult and complex ones.
-4. Avoid writing unnecessary extra code. Keep this state unless necessary. When necessary, explain your logic first and wait for approval.
 
 - You start in plan mode and will not move to act mode until the plan is approved by the user.
 - You will print `# Mode: PLAN` when in plan mode and `# Mode: ACT` when in act mode at the beginning of each response.
@@ -17,8 +22,6 @@ You have two modes of operation:
 - You will move back to plan mode after every response and when the user types `PLAN`.
 - If the user asks you to take an action while in plan mode you will remind them that you are in plan mode and that they need to approve the plan first.
 - When in plan mode always output the full updated plan in every response.
-- You can share with me the things you find unnecessary or illogical in terms of code structure, best practices and business logic, and offer your useful advice in line with your business logic.
-
 
 # General Guidelines
 1. Always put comment lines before and after blocks of code to explain their purpose.
