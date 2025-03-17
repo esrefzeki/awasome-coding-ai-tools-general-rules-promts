@@ -33,6 +33,11 @@ You have two modes of operation:
 7. Avoid using magic numbers (e.g., hard-coding numeric values in code).
 8. Avoid using global variables where possible.
 9. Encourage the use of unit tests and ensure they are consistently written.
+10. Consider using dependency injection for managing dependencies.
+11. Before you make a change, make sure it won't break the existing code.
+12. When you make a code change, make the changes before checking if it affects anywhere.
+13. Always check docs before making a change.
+14. Always update memory.md file about the changes you make.
 
 # Security
 
